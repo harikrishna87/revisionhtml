@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamborghini Booking Form</title>
+    <link rel="icon" href="../img/la-removebg-preview.png" type="image/x-icon">
+    <style>
+        body {
+            margin: 50px 38% 50px 38%;
+        }
+
+        form {
+            border: 2px solid black;
+            width: 400px;
+            border-radius: 7px;
+            color: black;
+            padding: 10px 15px;
+            background-color: #D1FFBD;
+        }
+
+        input {
+            font-size: 18px;
+            border: 2px solid black;
+            border-radius: 7px;
+            margin: 15px 0 10px 30px;
+            background-color: #f0e8e8;
+            padding: 3px;
+            padding-left: 10px;
+            width: 80%;
+        }
+
+        select {
+            font-size: 18px;
+            border: 2px solid black;
+            border-radius: 7px;
+            margin: 15px 0 10px 30px;
+            background-color: #f0e8e8;
+            padding: 3px;
+            padding-left: 10px;
+            width: 83.5%;
+        }
+
+        label {
+            padding-left: 15px;
+            padding-top: 20px;
+        }
+
+        h2 {
+            font-size: 25px;
+            font-weight: bold;
+            color: crimson;
+            margin-top: 70px;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 17px;
+            display: block;
+            margin: 10px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+        button {
+            font-size: 20px;
+            font-weight: 500;
+            color: black;
+            border: 2px solid black;
+            border-radius: 7px;
+            margin: 0 15px 15px 15px;
+            cursor: pointer;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        a {
+            color: blue;
+            font-weight: 400;
+            text-decoration: none;
+        }
+
+        p {
+            font-size: 19px;
+            font-weight: 600;
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo-container img {
+            display: block;
+            margin: auto;
+        }
+
+        h4 {
+            color: tomato;
+            font-style: italic;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form action="toast.html" method="post">
+
+            <div class="logo-container">
+                <img src="../img/LAMBO.png" alt="Lamborghini Logo" width="200px">
+            </div>
+
+            <label for="fname">Full Name:</label> <br>
+            <input type="text" id="fname" name="fname" required> <br>
+
+            <label for="email">Email:</label> <br>
+            <input type="email" name="email" id="email" required> <br>
+
+            <label for="phone">Phone Number:</label> <br>
+            <input type="tel" id="phone" name="phone" required> <br>
+
+            <label for="address">Delivery Address:</label> <br>
+            <input type="text" id="address" name="address" required> <br>
+
+            <label for="model">Models:</label> <br>
+            <select id="model" name="model" required>
+                <option value="choose">Choose...</option>
+                <option value="Lamborghini Revuelto">Lamborghini Revuelto</option>
+                <option value="Lamborghini Urus">Lamborghini Urus</option>
+                <option value="Lamborghini Huracane">Lamborghini Huracane</option>
+            </select>
+
+            <h4>Thank You</h4>
+
+            <div class="button-container">
+                <button type="submit">Book Now</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

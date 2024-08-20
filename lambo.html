@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamborghini</title>
+    <link rel="icon" href="../img/la-removebg-preview.png" type="image/x-icon">
+    <style>
+        section {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .lambo1, .lambo2, .lambo3 {
+            border: 2px solid violet;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            margin-left: 15px;
+            margin-top: 15px;
+            padding: 5px;
+            border: 1.5px solid white;
+            border-radius: 7px;
+            font-size: 20px;
+            color: red;
+            background-color: #454545;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 35px;
+            color: tomato;
+            font-style: italic;
+            text-align: center;
+        }
+
+        p {
+            font-size: 25px;
+            color: black;
+            text-align: center;
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo-container img {
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo-container">
+        <img src="../img/LAMBO.png" alt="Lamborghini Logo" width="300px">
+    </div>
+    <section>
+        <div class="lambo1">
+            <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/connectivity/revuelto/model_chooser_revuelto_mobile.png"
+                alt="" width="400px">
+            <h3>Lamborghini Revuelto</h3>
+            <p>Price: ₹ 8.89 Cr <a href="form.html"><button type="submit">Book Now</button></a></p>
+        </div>
+
+        <div class="lambo2">
+            <img src="https://imgd.aeplcdn.com/1280x720/n/cw/ec/53859/urus-performante-exterior-right-front-three-quarter-4.jpeg?isig=0&q=80"
+                alt="" width="400px">
+            <h3>Lamborghini Urus</h3>
+            <p>Price: ₹ 4.2 Cr <a href="form.html"><button type="submit">Book Now</button></a></p>
+        </div>
+
+        <div class="lambo3">
+            <img src="https://imgd.aeplcdn.com/1280x720/n/cw/ec/130671/huracan-tecnica-exterior-right-front-three-quarter-4.jpeg?isig=0&q=80"
+                alt="" width="400px">
+            <h3>Lamborghini Huracane</h3>
+            <p>Price: ₹ 4.0 Cr <a href="form.html"><button type="submit">Book Now</button></a></p>
+        </div>
+    </section>
+    <div class="button-container">
+        <a href="index.html"><button type="submit">Back To Home</button></a>
+    </div>
+</body>
+
+</html>
